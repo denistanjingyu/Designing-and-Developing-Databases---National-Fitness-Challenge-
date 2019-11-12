@@ -1,0 +1,60 @@
+{
+
+	"ClubID": 1.0,
+	"ClubName": "NTU Running Club",
+	"OwnerID": 86.0
+},
+{
+
+	"ClubID": 2.0,
+	"ClubName": "NUS Running Club",
+	"OwnerID": 66.0
+},
+{
+
+	"ClubID": 3.0,
+	"ClubName": "SIT Running Club",
+	"OwnerID": 196.0
+},
+{
+
+	"ClubID": 4.0,
+	"ClubName": "SMU Running Club",
+	"OwnerID": 168.0
+},
+{
+
+	"ClubID": 5.0,
+	"ClubName": "SUTD Running Club",
+	"OwnerID": 266.0
+},
+{
+
+	"ClubID": 6.0,
+	"ClubName": "Couples Running Club",
+	"OwnerID": 27.0
+},
+{
+
+	"ClubID": 7.0,
+	"ClubName": "Full Throttle",
+	"OwnerID": 79.0
+},
+{
+
+	"ClubID": 8.0,
+	"ClubName": "Breakfast Running Club",
+	"OwnerID": 213.0
+},
+{
+
+	"ClubID": 9.0,
+	"ClubName": "Sprinting Speedsters",
+	"OwnerID": 107.0
+},
+{
+
+	"ClubID": 10.0,
+	"ClubName": "Probably Gonna Walk",
+	"OwnerID": 182.0
+}
