@@ -1,4 +1,4 @@
-# Designing and Developing Databases - National Fitness Challenge-
+# Designing and Developing Databases - National Fitness Challenge
 The Ministry of Healthy Lifestyle (MHL) has tasked your team to design and develop a database solution to store information about their national fitness challenge, which is facilitated through the mobile app “Fitness 365”. The Ministry hopes that the database will improve their ability to understand citizens’ (about 5 million citizens) activeness and lifestyle. Since MHL will be promoting the app with incentivized campaigns, citizens are expected to use the app frequently for a prolonged period (i.e., 1 year). App usage is expected to be highly intensive during weekends and weekday evenings, while usage is expected to be sparse during daytime in weekdays.
 
 The Ministry’s requirements include:
