@@ -2,7 +2,7 @@
 ## Problem Statement
 The Ministry of Healthy Lifestyle (MHL) has tasked your team to design and develop a database solution to store information about their national fitness challenge, which is facilitated through the mobile app “Fitness 365”. The Ministry hopes that the database will improve their ability to understand citizens’ (about 5 million citizens) activeness and lifestyle. Since MHL will be promoting the app with incentivized campaigns, citizens are expected to use the app frequently for a prolonged period (i.e., 1 year). App usage is expected to be highly intensive during weekends and weekday evenings, while usage is expected to be sparse during daytime in weekdays.
 
-The Ministry’s requirements include:
+## The Ministry’s requirements include:
 
 (1)	User login
 
@@ -25,7 +25,7 @@ The Ministry’s requirements include:
 
 ## A.1 Relational database implementation
 
-# The specific deliverables are:
+### The specific deliverables are:
 
 •	Instructions on deploying the relational database (i.e., steps to import the .sql package)
 
@@ -55,7 +55,7 @@ o	Conduct social comparison analysis, i.e., for each user, list out his or her w
 
 ## A.2 Nonrelational database implementation
 
-# A nonrelational database shall be implemented. You may develop the nonrelational database using MongoDB or Neo4j. You are recommended to develop the nonrelational database design based on that in A.1.
+### A nonrelational database shall be implemented. You may develop the nonrelational database using MongoDB or Neo4j. You are recommended to develop the nonrelational database design based on that in A.1.
 
 The specific deliverables are:
 
