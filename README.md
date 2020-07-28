@@ -1,4 +1,5 @@
-# Designing and Developing Databases-National Fitness Challenge
+# Designing and Developing Databases - National Fitness Challenge
+## Problem Statement
 The Ministry of Healthy Lifestyle (MHL) has tasked your team to design and develop a database solution to store information about their national fitness challenge, which is facilitated through the mobile app “Fitness 365”. The Ministry hopes that the database will improve their ability to understand citizens’ (about 5 million citizens) activeness and lifestyle. Since MHL will be promoting the app with incentivized campaigns, citizens are expected to use the app frequently for a prolonged period (i.e., 1 year). App usage is expected to be highly intensive during weekends and weekday evenings, while usage is expected to be sparse during daytime in weekdays.
 
 The Ministry’s requirements include:
@@ -22,9 +23,9 @@ The Ministry’s requirements include:
 (9)	Personal best
 
 
-A.1 Relational database implementation
+## A.1 Relational database implementation
 
-The specific deliverables are:
+# The specific deliverables are:
 
 •	Instructions on deploying the relational database (i.e., steps to import the .sql package)
 
@@ -52,36 +53,12 @@ o	Compute monthly active social networks, i.e., for each user, list out his/her 
 
 o	Conduct social comparison analysis, i.e., for each user, list out his or her weekly average activity distance and weekly average activity duration. Additionally, compute the weekly averages for his social networks (i.e., followed by the user)
 
-A.2 Nonrelational database implementation
+## A.2 Nonrelational database implementation
 
-A nonrelational database shall be implemented. You may develop the nonrelational database using MongoDB or Neo4j. You are recommended to develop the nonrelational database design based on that in A.1.
+# A nonrelational database shall be implemented. You may develop the nonrelational database using MongoDB or Neo4j. You are recommended to develop the nonrelational database design based on that in A.1.
 
 The specific deliverables are:
 
 -	Instructions on deploying the nonrelational database 
 -	The nonrelational database must include dummy data (consistent with that in A.1)
 -	noSQL / Cypher statements (with expected outputs) for queries (i.e., in a text file) as depicted in A1 above.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
