@@ -36,25 +36,25 @@ The Ministry of Healthy Lifestyle (MHL) has tasked your team to design and devel
 
 -	SQL statements (with expected outputs) for queries (i.e., in a sql or text file) as follows:
 
-  -	Generate a list of male users who are >= 21 years old
+    -	Generate a list of male users who are >= 21 years old
 
-  -	Generate a list of male users who are following more female users than male users
+    -	Generate a list of male users who are following more female users than male users
 
-  -	Generate a list of female users who are followed by only male users
+    -	Generate a list of female users who are followed by only male users
 
-  -	Generate a list of users who are following each other mutually. For example, A is following B and B is following B (in other words, A is following B and A is also followed by B)
+    -	Generate a list of users who are following each other mutually. For example, A is following B and B is following B (in other words, A is following B and A is also followed by B)
 
-  -	Generate activeness insight, i.e., a list of users who have exercised (i) less than 30 minutes per week, (ii) between 30 minutes and 60 minutes, (iii) between 60 minutes and 120 minutes, and (iv) more than 120 minutes
+    -	Generate activeness insight, i.e., a list of users who have exercised (i) less than 30 minutes per week, (ii) between 30 minutes and 60 minutes, (iii) between 60 minutes and 120 minutes, and (iv) more than 120 minutes
 
-  -	Based on the above (activeness insight), generate age-based activeness insight, i.e., (i) below 21 years old, (ii) between 21 and 35 years old, (iii) between 35 and 50 years old, and (iv) above 50 years old
+    -	Based on the above (activeness insight), generate age-based activeness insight, i.e., (i) below 21 years old, (ii) between 21 and 35 years old, (iii) between 35 and 50 years old, and (iv) above 50 years old
 
-  -	Enrich the above (age-based activeness insight) with genders (i.e., provides age-based activeness insight for each gender)
+    -	Enrich the above (age-based activeness insight) with genders (i.e., provides age-based activeness insight for each gender)
 
-  -	Generate a list of users who have received > 5 Kudos in average for each activity
+    -	Generate a list of users who have received > 5 Kudos in average for each activity
 
-  -	Compute monthly active social networks, i.e., for each user, list out his/her followers, who have given him/her >=5 Kudos for each month’s activities
+    -	Compute monthly active social networks, i.e., for each user, list out his/her followers, who have given him/her >=5 Kudos for each month’s activities
 
-  -	Conduct social comparison analysis, i.e., for each user, list out his or her weekly average activity distance and weekly average activity duration. Additionally, compute the weekly averages for his social networks (i.e., followed by the user)
+    -	Conduct social comparison analysis, i.e., for each user, list out his or her weekly average activity distance and weekly average activity duration. Additionally, compute the weekly averages for his social networks (i.e., followed by the user)
 
 ## A.2 Nonrelational database implementation
 
