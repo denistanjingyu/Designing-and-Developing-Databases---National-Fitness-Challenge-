@@ -63,5 +63,7 @@ The Ministry of Healthy Lifestyle (MHL) has tasked your team to design and devel
 The specific deliverables are:
 
 -	Instructions on deploying the nonrelational database 
+
 -	The nonrelational database must include dummy data (consistent with that in A.1)
+
 -	noSQL / Cypher statements (with expected outputs) for queries (i.e., in a text file) as depicted in A1 above.
