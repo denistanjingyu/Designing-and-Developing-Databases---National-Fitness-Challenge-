@@ -5,7 +5,6 @@ FROM user
 WHERE Gender = 'M' and Age >= 21
 ORDER BY UserID;
 
-
 -- Q2. Generate a list of male users who are following more female users than male users
                      
 -- (i) Get all users who follow AT LEAST ONE FEMALE user 
@@ -76,7 +75,6 @@ WHERE UserID IN (SELECT FollowerID
 				 FROM followingGenderSplit
 				 WHERE followingNumberOfFemales > followingNumberOfMales) -- Following more female users than male users
 AND Gender = 'M'; 														  -- Select all male users 
-
 
 -- Q3. Generate a list of female users who are followed by only male users
 
@@ -150,13 +148,11 @@ WHERE UserID IN (SELECT FollowedID
                  AND numberOfFemaleFollowers = 0) -- Has no female followers at all
 AND Gender = 'F';                                 -- To select all female users
 
-
 -- Q4. Generate a list of users who are following each other mutually.
 SELECT f1.FollowedID, f1.FollowerID
 FROM followship AS f1, followship AS f2
 WHERE f1.followerID = f2.followedID AND f1.followedID = f2.followerID
 ORDER BY f1.FollowedID;
-
 
 /*
 Q5. Generate activeness insight, i.e., a list of users who have exercised 
@@ -199,9 +195,6 @@ ORDER BY WeeklyExerciseDurationClass,
              WHEN AgeRange = ">50" THEN '4'
              ELSE AgeRange END ASC, 
 		 Gender;
-
-
-
 
 -- Step 2 : Get a summary count of the number of users falling into each category
 SELECT WeeklyExerciseDurationClass AS `Weekly Exercise Duration (in minutes)`, AgeRange AS `Age`, Gender, COUNT(UserID) AS `Number of Users`
@@ -248,7 +241,6 @@ WHERE UserID IN (SELECT UserID
 				 FROM ExerciseStrata
 				 WHERE AgeRange = '<21' AND Gender = 'M' AND WeeklyExerciseDurationClass = '<30');
 
-
 -- Q8. Generate a list of users who have received > 5 Kudos in average for each activity
 
 -- Create a view for the total Kudos received by each user
@@ -280,7 +272,6 @@ INNER JOIN UserNumActivities AS u
 ON a.UserID = u.UserID
 WHERE `Total Kudos Received` / NumberOfActivities > 5;
 
-
 /*
  Q9. Compute monthly active social networks, i.e., for each user,
  list out his/her followers, who have given him/her >=5 Kudos for
@@ -295,7 +286,6 @@ WHERE `Total Kudos Received` / NumberOfActivities > 5;
  ON a.ActivityID = k.ActivityID
  GROUP BY `UserID`, `FollowerID`, `Activity Month`
  ORDER BY a.UserID;
- 
  
  /*
  Q10. Conduct social comparison analysis, i.e., for each user,
