@@ -1,3 +1,4 @@
+//Q1
 db.BC2402.aggregate({
     $match: {$and: [{Male_Follows: {
         $exists: true
@@ -267,7 +268,7 @@ db.BC2402.aggregate({
 	}
 })
 
-//10
+//Q10
 db.BC2402.aggregate({
     $unwind:"$Follows"
 },{
