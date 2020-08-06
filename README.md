@@ -28,6 +28,8 @@ The Ministry of Healthy Lifestyle (MHL) has tasked your team to design and devel
 
 ## A.1 Relational database implementation
 
+![704114-637286243838226002-16x9](https://user-images.githubusercontent.com/45563371/89556488-0c106c00-d844-11ea-8618-5a514bdb63ea.jpg)
+
 ### The specific deliverables are:
 
 -	Instructions on deploying the relational database (i.e., steps to import the .sql package)
@@ -57,6 +59,8 @@ The Ministry of Healthy Lifestyle (MHL) has tasked your team to design and devel
     -	Conduct social comparison analysis, i.e., for each user, list out his or her weekly average activity distance and weekly average activity duration. Additionally, compute the weekly averages for his social networks (i.e., followed by the user)
 
 ## A.2 Nonrelational database implementation
+
+![types-of-nosql-datastores](https://user-images.githubusercontent.com/45563371/89556681-54c82500-d844-11ea-86ac-e40f71d07f83.png)
 
 ### A nonrelational database shall be implemented. You may develop the nonrelational database using MongoDB or Neo4j. You are recommended to develop the nonrelational database design based on that in A.1.
 
